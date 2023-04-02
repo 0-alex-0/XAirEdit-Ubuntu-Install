@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.7
+Name=X-AIR-Edit
+GenericName=X-AIR Software
+Comment=Free and Open Source X-AIR Software
+Exec=/usr/share/X-AIR-Edit/X-AIR-Edit
+Icon=/usr/share/X-AIR-Edit/X-AIR-Edit_icon.png
+Terminal=false
+Type=Application
+Categories=AudioVideo;
+StartupNotify=true

@@ -1,0 +1,68 @@
+Version 1.7 - released 
+
+- Preventing sleep on MAC (no App Nap)
+- Improved touch interface for all platforms
+- New GUI preferences 'Confirm Pop-Ups'
+- New preferences for Auto Connect and Auto Synchronize
+- Sync-Direction is saved as preference
+- Command line interface on startup with options: 
+   -n, --name      <mixername>  connect to mixer with given name
+   -i, --ipaddress <x.x.x.x>    connect to mixer with given ip address
+   -x, --sync_mixer2pc          connect and synchronize from mixer to pc
+   -p, --sync_pc2mixer          connect and synchronize from pc to mixer
+
+   -s, --snapshot  <index>      connect and load snapshot with index 1...64
+   -f, --file      <scenefile>  connect and load external scene file 
+
+   -d, --default                start app with default size
+   -l, --full                   start app on full screen
+
+   -t, --standard               set standard size
+   -m, --medium                 set medium size
+   -g, --high                   set high size
+   -u, --ultra                  set ultra size
+   -z, --size      <factor>     set size to factor between 0.5 and 3.0
+   -h, --help                   print help and exit
+
+
+Version 1.6 - released
+
+- add dca spill utility window
+- add switch to deactivate mouse wheel (GUI Prefs)
+- 'Bus button names' active by default (GUI Prefs)
+- new EQ curve functions
+- improved routing tap color distinction 
+- tab buttons are now triggered on mouse-down 
+- add NameField to inputfield
+- add switchable busnames to sends tab name fields
+- small fixes for linux and mac
+- fix for XR16 when selecting source showing 4 [OFF] instead of CH13..CH16
+- fix for util main meter bug
+- fix for rta over eq issue
+- fix for channel link issue with ha gain/phantom
+- fix for oversized app windows after restart (if WIN10 display scale active)
+
+
+Version 1.5 - released
+
+What's new:
+- New routing for Aux-In/USB player to any input channel 
+- New EQ-graphics routine improves filter dragging when changing the band’s frequency 
+- New/improved keyboard shortcut mapping 
+- Utility meter window, graphic cosmetics 
+- Add show-password button to LAN setup key assign
+
+Improvements:
+- add ‘inverted’ buttons to mute system, 
+- use X32-Edit ‘Sends on Fader’ color scheme 
+- cosmetics: new X-Air logo, routing (I/O) menu and send tab fixes 
+- add mini transport buttons from X32-Edit 3.1 
+- add tab buttons for network setting, new key map module, improved graphics and layout 
+- transferred color style and ‘lookAndFeel’ module from X32-Edit V3.1 
+- fix for recorder filename display issue 
+- fix for port number issue (multiple instances), reconnect improvement and channel tab USB-trim bug 
+- fix for GEQ paste, auto sync after reconnect, alert window on FX slot change, DCA group sync fix 
+- fix for missing node requests, recorder FF REC button issue and possible FX chorus bug 
+- fix for Combinator band bypass redraw issue, when changed by other app instances 
+- fix for channel sends loop-in-loop issue (release hangs at startup) 
+- change meter hysteresis from 3 dB decay to 1 dB 
